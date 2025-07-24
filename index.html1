@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Galerie Exclusive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Galerie Exclusive</h1>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#paiement">Paiement</a>
+      <a href="#galerie">Galerie</a>
+    </nav>
+  </header>
+
+  <section id="accueil">
+    <h2>Bienvenue</h2>
+    <p>Découvrez un aperçu de notre galerie photo exclusive.  
+    Pour accéder à toutes les photos, le prix est de <strong>2 000 FCFA</strong>.</p>
+    <img src="images/apercu.jpg" alt="Aperçu Galerie" class="preview">
+  </section>
+
+  <section id="paiement">
+    <h2>Paiement Mobile Money</h2>
+    <p>Payez 2 000 FCFA via :</p>
+    <ul>
+      <li>TMoney : <strong>90 XX XX XX</strong></li>
+      <li>Flooz : <strong>91 XX XX XX</strong></li>
+    </ul>
+    <p>Après paiement, envoyez votre preuve :</p>
+    <form action="https://formsubmit.co/VOTRE_EMAIL" method="POST">
+      <label for="nom">Votre nom complet :</label>
+      <input type="text" id="nom" name="nom" required />
+
+      <label for="email">Votre email :</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="preuve">Preuve de paiement :</label>
+      <textarea id="preuve" name="preuve" rows="4" required></textarea>
+
+      <!-- Paramètres FormSubmit -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <section id="galerie">
+    <h2>Galerie protégée</h2>
+    <p><em>L’accès complet est réservé aux clients ayant payé et validé leur preuve.</em></p>
+    <div class="gallery">
+      <img src="images/photo1.jpg" alt="Photo 1">
+      <img src="images/photo2.jpg" alt="Photo 2">
+      <img src="images/photo3.jpg" alt="Photo 3">
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Galerie Exclusive – Tous droits réservés
+  </footer>
+</body>
+</html>
