@@ -1,0 +1,19 @@
+TUTORIEL D’INSTALLATION
+
+1. Ouvrez https://github.com et créez un compte.
+2. Créez un nouveau repository public (ex : galerie-exclusive).
+3. Uploadez les fichiers :
+   - index.html
+   - style.css
+   - dossier images (apercu.jpg, photo1.jpg, etc.)
+4. Dans Settings > Pages, activez "Deploy from branch".
+5. Votre site sera en ligne à l’adresse :
+   https://votre-nom-utilisateur.github.io/galerie-exclusive/
+
+CONFIGURATION DU FORMULAIRE :
+- Ouvrez index.html.
+- Remplacez "VOTRE_EMAIL" par votre email réel dans la balise <form>.
+- Testez le formulaire (vous recevrez un email FormSubmit).
+
+MISE À JOUR :
+- Modifiez les fichiers sur GitHub > Commit changes pour mettre à jour le site.
