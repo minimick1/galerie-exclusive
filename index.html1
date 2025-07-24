@@ -31,7 +31,7 @@
       <li>Flooz : <strong>91 XX XX XX</strong></li>
     </ul>
     <p>Après paiement, envoyez votre preuve :</p>
-    <form action="https://formsubmit.co/VOTRE_EMAIL" method="POST">
+    <form action="https://formsubmit.co/nulasolaria7@gmail.com" method="POST">
       <label for="nom">Votre nom complet :</label>
       <input type="text" id="nom" name="nom" required />
 
